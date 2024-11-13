@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            display:grid;
+            background-color: yellowgreen;
+            text-align: left;
+            grid-template-columns: repeat(3,2fr);
+            gap: 10px;
+        }
+        .container2{
+            display:grid;
+            background-color: lightgray;
+            text-align:right;
+            grid-template-rows: repeat(3,2fr);
+            gap: 20px;
+            grid-column: auto;
+        }
+        .container3{
+            display:grid;
+            background-color: royalblue;
+            text-align: left;
+            grid-template-areas: repeat(2,1fr);
+            gap: 10px;
+            grid-row:span;
+        }
+        .container4{
+            display:grid;
+            background-color:antiquewhite;
+            text-align: end;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            grid-auto-flow: row;
+        }
+        .container5{
+            display:grid;
+            background-color:greenyellow;
+            text-align: center;
+            grid-template-rows: repeat(2,1fr);
+            gap: 30px;
+            grid-row-start: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div>Keerthana</div>
+        <div>Phani</div>
+        <div>Arun</div>
+        <div>Ranjith</div>
+        <div>Teja</div>
+    </div>
+    <div class="container2">
+        <div>Keerthana</div>
+        <div>Phani</div>
+        <div>Arun</div>
+        <div>Ranjith</div>
+        <div>Teja</div>
+    </div>
+    <div class="container3">
+        <div>Keerthana</div>
+        <div>Phani</div>
+        <div>Arun</div>
+        <div>Ranjith</div>
+        <div>Teja</div>
+    </div>
+    <div class="container4">
+        <div>Keerthana</div>
+        <div>Phani</div>
+        <div>Arun</div>
+        <div>Ranjith</div>
+        <div>Teja</div>
+    </div>
+    <div class="container5">
+        <div>Keerthana</div>
+        <div>Phani</div>
+        <div>Arun</div>
+        <div>Ranjith</div>
+        <div>Teja</div>
+    </div>
+</body>
+</html>
